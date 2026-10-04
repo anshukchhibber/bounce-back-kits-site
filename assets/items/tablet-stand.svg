@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <!-- Adjustable tablet stand (printed, folding) holding a tablet leaning back in landscape. -->
+  <defs>
+    <pattern id="ll" width="8" height="4" patternUnits="userSpaceOnUse"><rect width="8" height="1.3" fill="#2E2A26" opacity=".1"/></pattern>
+    <clipPath id="scr"><path d="M56 46 H144 L156 124 H44 Z"/></clipPath>
+  </defs>
+  <ellipse cx="100" cy="176" rx="84" ry="9" fill="#2E2A26" opacity=".12"/>
+  <!-- back strut (behind the tablet) -->
+  <path d="M150 70 L180 156" stroke="#2E2A26" stroke-width="16" stroke-linecap="round"/>
+  <path d="M150 70 L180 156" stroke="#C9533D" stroke-width="8" stroke-linecap="round"/>
+  <!-- base plate in perspective -->
+  <path d="M30 146 H170 L184 164 A4 4 0 0 1 180 170 H20 A4 4 0 0 1 16 164 Z" fill="#E4674F"/>
+  <path d="M17 162 H183 L184 164 A4 4 0 0 1 180 170 H20 A4 4 0 0 1 16 164 Z" fill="#C9533D"/>
+  <path d="M30 146 H170 L184 164 A4 4 0 0 1 180 170 H20 A4 4 0 0 1 16 164 Z" fill="url(#ll)"/>
+  <path d="M30 146 H170 L184 164 A4 4 0 0 1 180 170 H20 A4 4 0 0 1 16 164 Z" fill="none" stroke="#2E2A26" stroke-width="4" stroke-linejoin="round"/>
+  <!-- hinge -->
+  <circle cx="178" cy="152" r="8" fill="#E4674F" stroke="#2E2A26" stroke-width="3.5"/>
+  <circle cx="178" cy="152" r="2.5" fill="#2E2A26"/>
+  <!-- tablet, leaning back (top edge narrower) -->
+  <path d="M48 36 H152 L166 134 H34 Z" fill="#2E2A26" stroke="#2E2A26" stroke-width="8" stroke-linejoin="round"/>
+  <path d="M56 46 H144 L156 124 H44 Z" fill="#E9F2F5"/>
+  <g clip-path="url(#scr)">
+    <circle cx="124" cy="68" r="11" fill="#F2C14E" stroke="#2E2A26" stroke-width="3"/>
+    <path d="M40 128 C 64 92 84 96 100 110 C 114 98 134 94 160 112 V128 Z" fill="#7FB4C7" stroke="#2E2A26" stroke-width="3"/>
+    <path d="M40 128 C 76 112 120 114 160 124 V128 Z" fill="#E4674F" stroke="#2E2A26" stroke-width="3"/>
+  </g>
+  <circle cx="100" cy="41" r="2" fill="#5B534B"/>
+  <path d="M60 54 L56 80" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" opacity=".7"/>
+  <!-- cradle lip -->
+  <rect x="30" y="128" width="140" height="16" rx="6" fill="#E4674F"/>
+  <rect x="30" y="137" width="140" height="7" rx="3" fill="#C9533D"/>
+  <rect x="30" y="128" width="140" height="16" rx="6" fill="url(#ll)"/>
+  <path d="M40 133 H110" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" opacity=".55"/>
+  <rect x="30" y="128" width="140" height="16" rx="6" fill="none" stroke="#2E2A26" stroke-width="4"/>
+</svg>

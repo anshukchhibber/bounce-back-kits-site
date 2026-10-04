@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <!-- Key turner (printed T-paddle handle holding a key — turned with a palm push). -->
+  <defs>
+    <pattern id="ll" width="8" height="4" patternUnits="userSpaceOnUse"><rect width="8" height="1.3" fill="#2E2A26" opacity=".1"/></pattern>
+    <clipPath id="paddle"><rect x="30" y="34" width="70" height="132" rx="26"/></clipPath>
+  </defs>
+  <ellipse cx="104" cy="176" rx="74" ry="9" fill="#2E2A26" opacity=".12"/>
+  <g transform="rotate(-16 100 100)">
+    <!-- key blade -->
+    <path d="M98 91 H164 L178 100 L164 109 H156 L151 116 H143 L138 109 H131 L126 116 H118 L113 109 H98 Z" fill="#CFC9C1"/>
+    <path d="M98 101 H175 L164 109 H156 L151 116 H143 L138 109 H131 L126 116 H118 L113 109 H98 Z" fill="#A9A39B"/>
+    <path d="M110 96 H160" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" opacity=".55"/>
+    <path d="M98 91 H164 L178 100 L164 109 H156 L151 116 H143 L138 109 H131 L126 116 H118 L113 109 H98 Z" fill="none" stroke="#2E2A26" stroke-width="4" stroke-linejoin="round"/>
+    <!-- collar -->
+    <rect x="94" y="82" width="14" height="36" rx="4" fill="#C9533D" stroke="#2E2A26" stroke-width="4"/>
+    <!-- tall paddle -->
+    <rect x="30" y="34" width="70" height="132" rx="26" fill="#E4674F"/>
+    <rect x="76" y="30" width="30" height="140" fill="#C9533D" clip-path="url(#paddle)"/>
+    <rect x="30" y="34" width="70" height="132" rx="26" fill="url(#ll)"/>
+    <!-- palm ridges -->
+    <path d="M48 76 H82 M48 100 H82 M48 124 H82" stroke="#C9533D" stroke-width="5" stroke-linecap="round"/>
+    <path d="M42 56 V96" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" opacity=".55"/>
+    <rect x="30" y="34" width="70" height="132" rx="26" fill="none" stroke="#2E2A26" stroke-width="4"/>
+    <!-- keyring hole -->
+    <circle cx="65" cy="52" r="6.5" fill="#FBF7F2" stroke="#2E2A26" stroke-width="3"/>
+  </g>
+</svg>

@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <!-- Tap turner (printed lever) fitted over a faucet knob. -->
+  <defs>
+    <pattern id="ll" width="8" height="4" patternUnits="userSpaceOnUse"><rect width="8" height="1.3" fill="#2E2A26" opacity=".1"/></pattern>
+  </defs>
+  <ellipse cx="100" cy="176" rx="80" ry="8" fill="#2E2A26" opacity=".12"/>
+  <!-- counter -->
+  <path d="M14 160 L30 148 H186 L170 160 Z" fill="#FBF7F2" stroke="#2E2A26" stroke-width="4" stroke-linejoin="round"/>
+  <rect x="14" y="160" width="156" height="12" fill="#E3D6C0" stroke="#2E2A26" stroke-width="4"/>
+  <!-- faucet body + spout -->
+  <ellipse cx="86" cy="152" rx="24" ry="7" fill="#A9A39B" stroke="#2E2A26" stroke-width="4"/>
+  <rect x="74" y="92" width="24" height="60" fill="#CFC9C1"/>
+  <rect x="88" y="92" width="10" height="60" fill="#A9A39B"/>
+  <path d="M74 92 V152 M98 92 V152" stroke="#2E2A26" stroke-width="4"/>
+  <path d="M78 102 V140" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" opacity=".6"/>
+  <path d="M74 108 H48 C 36 108 30 116 30 128" fill="none" stroke="#2E2A26" stroke-width="18" stroke-linecap="round"/>
+  <path d="M74 108 H48 C 36 108 30 116 30 128" fill="none" stroke="#CFC9C1" stroke-width="10" stroke-linecap="round"/>
+  <path d="M30 138 q -4 6 0 10 q 4 -4 0 -10" fill="#7FB4C7" stroke="#2E2A26" stroke-width="2.5" stroke-linejoin="round"/>
+  <!-- turner collar over the knob + lever -->
+  <path d="M100 66 H184 A10 10 0 0 1 184 86 H100 Z" fill="#7FB4C7"/>
+  <path d="M100 78 H192 A10 10 0 0 1 184 86 H100 Z" fill="#5E97AB"/>
+  <path d="M100 66 H184 A10 10 0 0 1 184 86 H100 Z" fill="url(#ll)"/>
+  <path d="M110 71 H176" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" opacity=".55"/>
+  <path d="M100 66 H184 A10 10 0 0 1 184 86 H100 Z" fill="none" stroke="#2E2A26" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M60 60 H112 L108 96 H64 Z" fill="#7FB4C7"/>
+  <path d="M96 60 H112 L108 96 H94 Z" fill="#5E97AB"/>
+  <path d="M60 60 H112 L108 96 H64 Z" fill="url(#ll)"/>
+  <path d="M68 68 V88" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" opacity=".55"/>
+  <path d="M60 60 H112 L108 96 H64 Z" fill="none" stroke="#2E2A26" stroke-width="4" stroke-linejoin="round"/>
+  <ellipse cx="86" cy="60" rx="26" ry="7" fill="#9CC6D5" stroke="#2E2A26" stroke-width="4"/>
+  <circle cx="176" cy="76" r="4" fill="#FBF7F2" stroke="#2E2A26" stroke-width="2.5"/>
+</svg>

@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <!-- Built-up utensils: a spoon and a fork with fat printed grips. -->
+  <defs>
+    <pattern id="ll" width="8" height="4" patternUnits="userSpaceOnUse"><rect width="8" height="1.3" fill="#2E2A26" opacity=".1"/></pattern>
+  </defs>
+  <ellipse cx="100" cy="178" rx="70" ry="8" fill="#2E2A26" opacity=".12"/>
+  <!-- spoon -->
+  <g transform="rotate(-14 76 170)">
+    <rect x="70" y="58" width="10" height="44" rx="4" fill="#CFC9C1" stroke="#2E2A26" stroke-width="4"/>
+    <ellipse cx="75" cy="38" rx="17" ry="24" fill="#CFC9C1" stroke="#2E2A26" stroke-width="4"/>
+    <ellipse cx="78" cy="42" rx="9" ry="14" fill="#A9A39B"/>
+    <path d="M66 28 Q68 20 74 18" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" opacity=".7"/>
+    <rect x="58" y="96" width="34" height="80" rx="17" fill="#F2C14E"/>
+    <rect x="78" y="96" width="14" height="80" rx="7" fill="#D9A63A"/>
+    <rect x="58" y="96" width="34" height="80" rx="17" fill="url(#ll)"/>
+    <path d="M60 120 H90 M60 136 H90 M60 152 H90" stroke="#D9A63A" stroke-width="3" stroke-linecap="round"/>
+    <path d="M66 106 V164" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" opacity=".55"/>
+    <rect x="58" y="96" width="34" height="80" rx="17" fill="none" stroke="#2E2A26" stroke-width="4"/>
+  </g>
+  <!-- fork -->
+  <g transform="rotate(14 126 170)">
+    <rect x="121" y="58" width="10" height="44" rx="4" fill="#CFC9C1" stroke="#2E2A26" stroke-width="4"/>
+    <path d="M110 16 V40 A16 14 0 0 0 142 40 V16" fill="none" stroke="#2E2A26" stroke-width="10" stroke-linecap="round"/>
+    <path d="M110 16 V40 A16 14 0 0 0 142 40 V16" fill="none" stroke="#CFC9C1" stroke-width="4" stroke-linecap="round"/>
+    <path d="M121 16 V44 M131 16 V44" stroke="#2E2A26" stroke-width="10" stroke-linecap="round"/>
+    <path d="M121 16 V44 M131 16 V44" stroke="#CFC9C1" stroke-width="4" stroke-linecap="round"/>
+    <path d="M114 50 Q126 62 138 50 L132 60 H120 Z" fill="#CFC9C1" stroke="#2E2A26" stroke-width="3" stroke-linejoin="round"/>
+    <rect x="109" y="96" width="34" height="80" rx="17" fill="#E4674F"/>
+    <rect x="129" y="96" width="14" height="80" rx="7" fill="#C9533D"/>
+    <rect x="109" y="96" width="34" height="80" rx="17" fill="url(#ll)"/>
+    <path d="M111 120 H141 M111 136 H141 M111 152 H141" stroke="#C9533D" stroke-width="3" stroke-linecap="round"/>
+    <path d="M117 106 V164" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" opacity=".55"/>
+    <rect x="109" y="96" width="34" height="80" rx="17" fill="none" stroke="#2E2A26" stroke-width="4"/>
+  </g>
+</svg>

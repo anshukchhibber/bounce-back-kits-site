@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <!-- Reacher / grabber (sourced — no layer lines). -->
+  <ellipse cx="100" cy="176" rx="70" ry="8" fill="#2E2A26" opacity=".12"/>
+  <g transform="translate(-4 -12) rotate(-36 100 100)">
+    <!-- shaft -->
+    <rect x="94" y="56" width="12" height="112" rx="6" fill="#CFC9C1"/>
+    <rect x="101" y="56" width="5" height="112" rx="2.5" fill="#A9A39B"/>
+    <path d="M97 70 V150" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" opacity=".55"/>
+    <rect x="94" y="56" width="12" height="112" rx="6" fill="none" stroke="#2E2A26" stroke-width="4"/>
+    <!-- jaws -->
+    <path d="M92 166 C 80 172 78 186 84 196" fill="none" stroke="#2E2A26" stroke-width="7" stroke-linecap="round"/>
+    <path d="M108 166 C 120 172 122 186 116 196" fill="none" stroke="#2E2A26" stroke-width="7" stroke-linecap="round"/>
+    <circle cx="84" cy="196" r="6" fill="#7FB4C7" stroke="#2E2A26" stroke-width="3"/>
+    <circle cx="116" cy="196" r="6" fill="#7FB4C7" stroke="#2E2A26" stroke-width="3"/>
+    <!-- pistol grip: angled back from the head -->
+    <path d="M100 38 L52 22" stroke="#2E2A26" stroke-width="24" stroke-linecap="round"/>
+    <path d="M94 32 L56 19" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" opacity=".3"/>
+    <path d="M86 40 L62 32 M80 44 L58 37" stroke="#4A433D" stroke-width="2.5" stroke-linecap="round"/>
+    <!-- head where the shaft enters -->
+    <rect x="88" y="26" width="24" height="40" rx="10" fill="#2E2A26"/>
+    <path d="M95 32 V48" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" opacity=".3"/>
+    <!-- trigger -->
+    <path d="M88 50 C 79 52 72 58 72 67 C 77 70 84 66 89 61 Z" fill="#E4674F" stroke="#2E2A26" stroke-width="3" stroke-linejoin="round"/>
+  </g>
+</svg>

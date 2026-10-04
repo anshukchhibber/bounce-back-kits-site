@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <!-- Desktop 3D printer mid-print (coral part on the bed). Same style as assets/items. -->
+  <defs>
+    <pattern id="ll" width="8" height="4" patternUnits="userSpaceOnUse"><rect width="8" height="1.3" fill="#2E2A26" opacity=".1"/></pattern>
+  </defs>
+  <ellipse cx="100" cy="178" rx="74" ry="8" fill="#2E2A26" opacity=".12"/>
+  <!-- frame -->
+  <rect x="34" y="30" width="132" height="140" rx="10" fill="#FBF7F2"/>
+  <rect x="140" y="30" width="26" height="140" rx="10" fill="#E3D6C0"/>
+  <rect x="34" y="30" width="132" height="140" rx="10" fill="none" stroke="#2E2A26" stroke-width="4"/>
+  <rect x="48" y="44" width="104" height="104" rx="4" fill="#EAF3F6" stroke="#2E2A26" stroke-width="3"/>
+  <!-- gantry + print head -->
+  <path d="M48 62 H152" stroke="#2E2A26" stroke-width="4" stroke-linecap="round"/>
+  <rect x="80" y="54" width="34" height="20" rx="4" fill="#7FB4C7" stroke="#2E2A26" stroke-width="3"/>
+  <path d="M97 74 L92 84 H102 Z" fill="#2E2A26"/>
+  <!-- the part being printed -->
+  <path d="M74 140 V112 Q74 100 86 100 H108 Q120 100 120 112 V140 Z" fill="#E4674F"/>
+  <path d="M106 100 Q120 100 120 112 V140 H106 Z" fill="#C9533D"/>
+  <path d="M74 140 V112 Q74 100 86 100 H108 Q120 100 120 112 V140 Z" fill="url(#ll)"/>
+  <path d="M80 112 V130" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" opacity=".55"/>
+  <path d="M74 140 V112 Q74 100 86 100 H108 Q120 100 120 112 V140 Z" fill="none" stroke="#2E2A26" stroke-width="3.5" stroke-linejoin="round"/>
+  <path d="M97 86 V98" stroke="#E4674F" stroke-width="2.5" stroke-dasharray="2 3"/>
+  <!-- bed -->
+  <rect x="56" y="140" width="88" height="8" rx="2" fill="#2E2A26"/>
+  <!-- control knob + screen -->
+  <rect x="52" y="154" width="30" height="10" rx="3" fill="#F2C14E" stroke="#2E2A26" stroke-width="2.5"/>
+  <circle cx="148" cy="159" r="5" fill="#E4674F" stroke="#2E2A26" stroke-width="2.5"/>
+</svg>

@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <!-- Three large printed zipper pulls on short cords. -->
+  <defs>
+    <pattern id="ll" width="8" height="4" patternUnits="userSpaceOnUse"><rect width="8" height="1.3" fill="#2E2A26" opacity=".1"/></pattern>
+    <clipPath id="ring1"><path fill-rule="evenodd" d="M24 112 a26 26 0 1 0 52 0 a26 26 0 1 0 -52 0 Z M38 112 a12 12 0 1 0 24 0 a12 12 0 1 0 -24 0 Z"/></clipPath>
+    <clipPath id="tab2"><path fill-rule="evenodd" d="M86 80 H114 A18 18 0 0 1 132 98 V144 A18 18 0 0 1 114 162 H86 A18 18 0 0 1 68 144 V98 A18 18 0 0 1 86 80 Z M86 132 a14 14 0 1 0 28 0 a14 14 0 1 0 -28 0 Z"/></clipPath>
+    <clipPath id="ring3"><path fill-rule="evenodd" d="M136 104 a22 30 0 1 0 44 0 a22 30 0 1 0 -44 0 Z M148 104 a10 18 0 1 0 20 0 a10 18 0 1 0 -20 0 Z"/></clipPath>
+  </defs>
+  <ellipse cx="100" cy="176" rx="80" ry="9" fill="#2E2A26" opacity=".12"/>
+  <!-- cords -->
+  <g fill="none" stroke="#2E2A26" stroke-width="3.5" stroke-linecap="round">
+    <path d="M44 86 C 40 66 60 64 56 86"/>
+    <path d="M94 80 C 90 52 112 52 106 80"/>
+    <path d="M152 74 C 148 52 170 52 164 74"/>
+  </g>
+  <!-- coral ring -->
+  <g transform="rotate(-10 50 112)">
+    <path fill-rule="evenodd" d="M24 112 a26 26 0 1 0 52 0 a26 26 0 1 0 -52 0 Z M38 112 a12 12 0 1 0 24 0 a12 12 0 1 0 -24 0 Z" fill="#E4674F"/>
+    <rect x="20" y="118" width="60" height="24" fill="#C9533D" clip-path="url(#ring1)"/>
+    <path fill-rule="evenodd" d="M24 112 a26 26 0 1 0 52 0 a26 26 0 1 0 -52 0 Z M38 112 a12 12 0 1 0 24 0 a12 12 0 1 0 -24 0 Z" fill="url(#ll)"/>
+    <path d="M30 104 A22 22 0 0 1 46 90" fill="none" stroke="#FFFFFF" stroke-width="3.5" stroke-linecap="round" opacity=".55"/>
+    <path fill-rule="evenodd" d="M24 112 a26 26 0 1 0 52 0 a26 26 0 1 0 -52 0 Z M38 112 a12 12 0 1 0 24 0 a12 12 0 1 0 -24 0 Z" fill="none" stroke="#2E2A26" stroke-width="4"/>
+  </g>
+  <!-- butter tab -->
+  <g transform="rotate(4 100 120)">
+    <path fill-rule="evenodd" d="M86 80 H114 A18 18 0 0 1 132 98 V144 A18 18 0 0 1 114 162 H86 A18 18 0 0 1 68 144 V98 A18 18 0 0 1 86 80 Z M86 132 a14 14 0 1 0 28 0 a14 14 0 1 0 -28 0 Z" fill="#F2C14E"/>
+    <rect x="112" y="78" width="22" height="86" fill="#D9A63A" clip-path="url(#tab2)"/>
+    <path fill-rule="evenodd" d="M86 80 H114 A18 18 0 0 1 132 98 V144 A18 18 0 0 1 114 162 H86 A18 18 0 0 1 68 144 V98 A18 18 0 0 1 86 80 Z M86 132 a14 14 0 1 0 28 0 a14 14 0 1 0 -28 0 Z" fill="url(#ll)"/>
+    <path d="M76 100 V124" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" opacity=".55"/>
+    <path fill-rule="evenodd" d="M86 80 H114 A18 18 0 0 1 132 98 V144 A18 18 0 0 1 114 162 H86 A18 18 0 0 1 68 144 V98 A18 18 0 0 1 86 80 Z M86 132 a14 14 0 1 0 28 0 a14 14 0 1 0 -28 0 Z" fill="none" stroke="#2E2A26" stroke-width="4" stroke-linejoin="round"/>
+  </g>
+  <!-- sky oval ring -->
+  <g transform="rotate(12 158 104)">
+    <path fill-rule="evenodd" d="M136 104 a22 30 0 1 0 44 0 a22 30 0 1 0 -44 0 Z M148 104 a10 18 0 1 0 20 0 a10 18 0 1 0 -20 0 Z" fill="#7FB4C7"/>
+    <rect x="132" y="110" width="52" height="28" fill="#5E97AB" clip-path="url(#ring3)"/>
+    <path fill-rule="evenodd" d="M136 104 a22 30 0 1 0 44 0 a22 30 0 1 0 -44 0 Z M148 104 a10 18 0 1 0 20 0 a10 18 0 1 0 -20 0 Z" fill="url(#ll)"/>
+    <path d="M141 94 A20 28 0 0 1 152 78" fill="none" stroke="#FFFFFF" stroke-width="3.5" stroke-linecap="round" opacity=".55"/>
+    <path fill-rule="evenodd" d="M136 104 a22 30 0 1 0 44 0 a22 30 0 1 0 -44 0 Z M148 104 a10 18 0 1 0 20 0 a10 18 0 1 0 -20 0 Z" fill="none" stroke="#2E2A26" stroke-width="4"/>
+  </g>
+</svg>

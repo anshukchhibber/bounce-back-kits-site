@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <!-- Bedside caddy (printed) holding a TV remote, glasses, and a charger cable. -->
+  <defs>
+    <pattern id="ll" width="8" height="4" patternUnits="userSpaceOnUse"><rect width="8" height="1.3" fill="#2E2A26" opacity=".1"/></pattern>
+  </defs>
+  <ellipse cx="100" cy="176" rx="80" ry="9" fill="#2E2A26" opacity=".12"/>
+  <!-- remote standing in the left slot -->
+  <g transform="rotate(-8 68 110)">
+    <rect x="54" y="34" width="28" height="92" rx="10" fill="#2E2A26"/>
+    <circle cx="68" cy="48" r="5" fill="#E4674F"/>
+    <rect x="60" y="60" width="7" height="5" rx="2" fill="#7FB4C7"/><rect x="70" y="60" width="7" height="5" rx="2" fill="#7FB4C7"/>
+    <rect x="60" y="70" width="7" height="5" rx="2" fill="#F2C14E"/><rect x="70" y="70" width="7" height="5" rx="2" fill="#F2C14E"/>
+    <path d="M58 40 V56" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round" opacity=".35"/>
+  </g>
+  <!-- charger cable coiling out of the right slot -->
+  <path d="M136 92 C 140 70 160 64 170 76 C 180 90 168 104 176 120 L180 132" fill="none" stroke="#2E2A26" stroke-width="8" stroke-linecap="round"/>
+  <path d="M136 92 C 140 70 160 64 170 76 C 180 90 168 104 176 120 L180 132" fill="none" stroke="#FFFFFF" stroke-width="3.5" stroke-linecap="round"/>
+  <rect x="172" y="128" width="16" height="22" rx="4" fill="#FFFFFF" stroke="#2E2A26" stroke-width="3.5"/>
+  <!-- caddy: rim, side, front -->
+  <path d="M30 96 L42 86 H170 L158 96 Z" fill="#D9A63A" stroke="#2E2A26" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M158 96 L170 86 V156 L158 168 Z" fill="#D9A63A"/>
+  <path d="M158 96 L170 86 V156 L158 168 Z" fill="url(#ll)"/>
+  <path d="M158 96 L170 86 V156 L158 168 Z" fill="none" stroke="#2E2A26" stroke-width="4" stroke-linejoin="round"/>
+  <rect x="30" y="96" width="128" height="72" rx="6" fill="#F2C14E"/>
+  <rect x="30" y="96" width="128" height="72" rx="6" fill="url(#ll)"/>
+  <path d="M38 106 H96" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" opacity=".55"/>
+  <path d="M100 104 V160" stroke="#D9A63A" stroke-width="4" stroke-linecap="round"/>
+  <rect x="30" y="96" width="128" height="72" rx="6" fill="none" stroke="#2E2A26" stroke-width="4"/>
+  <!-- glasses hooked over the front -->
+  <path d="M112 98 C 112 90 124 88 128 96 M134 96 C 138 88 150 90 150 98" fill="none" stroke="#2E2A26" stroke-width="3.5" stroke-linecap="round"/>
+  <ellipse cx="120" cy="112" rx="11" ry="9" fill="#EAF3F6" stroke="#2E2A26" stroke-width="3.5"/>
+  <ellipse cx="144" cy="112" rx="11" ry="9" fill="#EAF3F6" stroke="#2E2A26" stroke-width="3.5"/>
+  <path d="M131 110 H133" stroke="#2E2A26" stroke-width="3.5" stroke-linecap="round"/>
+  <path d="M114 108 L118 105" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <!-- "When you'd reach for this" guide cards + a kraft gift card with the bounce mark (mark never rotated). -->
+  <ellipse cx="100" cy="176" rx="76" ry="9" fill="#2E2A26" opacity=".12"/>
+  <!-- back guide card -->
+  <g transform="rotate(-14 70 170)">
+    <rect x="30" y="52" width="84" height="112" rx="8" fill="#FFFFFF" stroke="#2E2A26" stroke-width="4"/>
+    <rect x="42" y="66" width="40" height="8" rx="4" fill="#E4674F"/>
+    <path d="M42 86 H102 M42 98 H96 M42 110 H100 M42 122 H88" stroke="#2E2A26" stroke-width="3" stroke-linecap="round" opacity=".45"/>
+  </g>
+  <!-- middle guide card -->
+  <g transform="rotate(10 130 170)">
+    <rect x="86" y="48" width="84" height="112" rx="8" fill="#FFFFFF" stroke="#2E2A26" stroke-width="4"/>
+    <rect x="98" y="62" width="44" height="8" rx="4" fill="#7FB4C7"/>
+    <path d="M98 82 H158 M98 94 H152 M98 106 H156 M98 118 H140" stroke="#2E2A26" stroke-width="3" stroke-linecap="round" opacity=".45"/>
+  </g>
+  <!-- front kraft gift card (upright so the mark stays level) -->
+  <rect x="56" y="64" width="88" height="110" rx="8" fill="#E3C9A0"/>
+  <path d="M120 64 H136 A8 8 0 0 1 144 72 V166 A8 8 0 0 1 136 174 H120 Z" fill="#D2B386"/>
+  <path d="M64 80 V120" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" opacity=".45"/>
+  <rect x="56" y="64" width="88" height="110" rx="8" fill="none" stroke="#2E2A26" stroke-width="4"/>
+  <circle cx="100" cy="96" r="9" fill="#F2C14E"/>
+  <path d="M84 110 A16 12 0 0 0 116 110" fill="none" stroke="#E4674F" stroke-width="7" stroke-linecap="round"/>
+  <path d="M76 140 H124 M84 152 H116" stroke="#2E2A26" stroke-width="3" stroke-linecap="round" opacity=".5"/>
+</svg>

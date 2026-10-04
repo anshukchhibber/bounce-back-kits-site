@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <!-- Bedside phone stand (printed) holding a phone on a video call. -->
+  <defs>
+    <pattern id="ll" width="8" height="4" patternUnits="userSpaceOnUse"><rect width="8" height="1.3" fill="#2E2A26" opacity=".1"/></pattern>
+    <clipPath id="screen"><rect x="76" y="34" width="52" height="96" rx="5"/></clipPath>
+  </defs>
+  <ellipse cx="100" cy="174" rx="72" ry="9" fill="#2E2A26" opacity=".12"/>
+  <!-- backrest -->
+  <g transform="rotate(-6 102 140)">
+    <rect x="78" y="22" width="60" height="122" rx="10" fill="#7FB4C7"/>
+    <rect x="78" y="22" width="60" height="122" rx="10" fill="url(#ll)"/>
+    <rect x="78" y="22" width="60" height="122" rx="10" fill="none" stroke="#2E2A26" stroke-width="4"/>
+  </g>
+  <!-- phone -->
+  <g transform="rotate(-6 102 140)">
+    <rect x="70" y="26" width="64" height="112" rx="11" fill="#2E2A26"/>
+    <rect x="76" y="34" width="52" height="96" rx="5" fill="#EAF3F6"/>
+    <g clip-path="url(#screen)">
+      <circle cx="102" cy="74" r="15" fill="#F2C14E" stroke="#2E2A26" stroke-width="3"/>
+      <path d="M76 130 C 78 104 126 104 128 130 Z" fill="#E4674F" stroke="#2E2A26" stroke-width="3"/>
+      <rect x="108" y="40" width="16" height="22" rx="4" fill="#FBF7F2" stroke="#2E2A26" stroke-width="2.5"/>
+      <circle cx="116" cy="49" r="4" fill="#7FB4C7"/>
+    </g>
+    <path d="M78 40 V66" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" opacity=".7"/>
+  </g>
+  <!-- base + lip -->
+  <path d="M40 146 H160 L166 166 A6 6 0 0 1 160 172 H40 A6 6 0 0 1 34 166 Z" fill="#7FB4C7"/>
+  <path d="M35 160 H165 L166 166 A6 6 0 0 1 160 172 H40 A6 6 0 0 1 34 166 Z" fill="#5E97AB"/>
+  <path d="M40 146 H160 L166 166 A6 6 0 0 1 160 172 H40 A6 6 0 0 1 34 166 Z" fill="url(#ll)"/>
+  <path d="M48 152 H120" stroke="#FFFFFF" stroke-width="3.5" stroke-linecap="round" opacity=".55"/>
+  <path d="M40 146 H160 L166 166 A6 6 0 0 1 160 172 H40 A6 6 0 0 1 34 166 Z" fill="none" stroke="#2E2A26" stroke-width="4" stroke-linejoin="round"/>
+  <rect x="62" y="132" width="82" height="16" rx="6" fill="#7FB4C7"/>
+  <rect x="62" y="141" width="82" height="7" rx="3" fill="#5E97AB"/>
+  <rect x="62" y="132" width="82" height="16" rx="6" fill="url(#ll)"/>
+  <rect x="62" y="132" width="82" height="16" rx="6" fill="none" stroke="#2E2A26" stroke-width="4"/>
+</svg>

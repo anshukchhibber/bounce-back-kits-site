@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <!-- Non-slip mat (soft, dotted grip surface) holding a bowl still. -->
+  <defs>
+    <clipPath id="mat"><ellipse cx="100" cy="138" rx="84" ry="30"/></clipPath>
+    <clipPath id="bowl"><path d="M52 98 C 54 140 146 140 148 98 Z"/></clipPath>
+  </defs>
+  <ellipse cx="100" cy="174" rx="86" ry="8" fill="#2E2A26" opacity=".12"/>
+  <!-- mat -->
+  <ellipse cx="100" cy="146" rx="84" ry="30" fill="#5E97AB" stroke="#2E2A26" stroke-width="4"/>
+  <ellipse cx="100" cy="138" rx="84" ry="30" fill="#7FB4C7"/>
+  <g clip-path="url(#mat)" fill="#5E97AB">
+    <circle cx="34" cy="132" r="3"/><circle cx="48" cy="122" r="3"/><circle cx="50" cy="146" r="3"/><circle cx="66" cy="158" r="3"/>
+    <circle cx="64" cy="114" r="3"/><circle cx="84" cy="160" r="3"/><circle cx="104" cy="164" r="3"/><circle cx="124" cy="160" r="3"/>
+    <circle cx="142" cy="154" r="3"/><circle cx="156" cy="144" r="3"/><circle cx="166" cy="130" r="3"/><circle cx="152" cy="118" r="3"/>
+    <circle cx="136" cy="112" r="3"/><circle cx="38" cy="150" r="3"/><circle cx="162" cy="140" r="3"/><circle cx="76" cy="110" r="3"/>
+  </g>
+  <path d="M30 128 Q50 112 84 108" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" opacity=".55"/>
+  <ellipse cx="100" cy="138" rx="84" ry="30" fill="none" stroke="#2E2A26" stroke-width="4"/>
+  <!-- bowl -->
+  <ellipse cx="100" cy="134" rx="30" ry="7" fill="#2E2A26" opacity=".15"/>
+  <path d="M52 98 C 54 140 146 140 148 98 Z" fill="#FFFFFF"/>
+  <rect x="112" y="94" width="40" height="44" fill="#F3EBDD" clip-path="url(#bowl)"/>
+  <path d="M60 108 C 64 120 74 126 84 128" fill="none" stroke="#E4674F" stroke-width="5" stroke-linecap="round"/>
+  <path d="M52 98 C 54 140 146 140 148 98" fill="none" stroke="#2E2A26" stroke-width="4" stroke-linejoin="round"/>
+  <ellipse cx="100" cy="98" rx="48" ry="13" fill="#FFFFFF" stroke="#2E2A26" stroke-width="4"/>
+  <ellipse cx="100" cy="99" rx="38" ry="8" fill="#F2C14E"/>
+  <path d="M74 98 Q86 94 98 96" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" opacity=".7"/>
+</svg>

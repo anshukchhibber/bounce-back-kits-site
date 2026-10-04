@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <!-- Comparison art: catalog kits — beige aids in a plain poly bag with a barcode sticker. -->
+  <ellipse cx="100" cy="178" rx="66" ry="8" fill="#2E2A26" opacity=".12"/>
+  <!-- contents, seen through the plastic -->
+  <rect x="62" y="70" width="16" height="84" rx="8" fill="#CBBFA9" stroke="#2E2A26" stroke-width="3" transform="rotate(-12 70 112)"/>
+  <circle cx="118" cy="124" r="22" fill="none" stroke="#B9AC95" stroke-width="9"/>
+  <circle cx="118" cy="124" r="22" fill="none" stroke="#2E2A26" stroke-width="2.5" opacity=".7"/>
+  <rect x="96" y="76" width="44" height="22" rx="6" fill="#D6CCB8" stroke="#2E2A26" stroke-width="3"/>
+  <!-- the bag -->
+  <path d="M46 52 H154 L150 166 A8 8 0 0 1 142 174 H58 A8 8 0 0 1 50 166 Z" fill="#DCDAD6" opacity=".55"/>
+  <path d="M132 52 H154 L150 166 A8 8 0 0 1 142 174 H136 Z" fill="#C6C3BE" opacity=".5"/>
+  <path d="M60 66 L64 150" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round" opacity=".8"/>
+  <path d="M46 52 H154 L150 166 A8 8 0 0 1 142 174 H58 A8 8 0 0 1 50 166 Z" fill="none" stroke="#2E2A26" stroke-width="4" stroke-linejoin="round"/>
+  <!-- zip seal -->
+  <rect x="44" y="44" width="112" height="12" rx="4" fill="#B9B6B0" stroke="#2E2A26" stroke-width="4"/>
+  <!-- barcode sticker -->
+  <rect x="108" y="140" width="38" height="24" rx="3" fill="#FFFFFF" stroke="#2E2A26" stroke-width="3"/>
+  <path d="M114 146 V158 M118 146 V158 M121 146 V158 M126 146 V158 M129 146 V158 M134 146 V158 M139 146 V158" stroke="#2E2A26" stroke-width="2"/>
+</svg>

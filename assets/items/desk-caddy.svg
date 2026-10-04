@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <!-- One-hand desk caddy (printed) with a pen, a pencil, a letter, and a weighted paper holder. -->
+  <defs>
+    <pattern id="ll" width="8" height="4" patternUnits="userSpaceOnUse"><rect width="8" height="1.3" fill="#2E2A26" opacity=".1"/></pattern>
+  </defs>
+  <ellipse cx="100" cy="176" rx="80" ry="9" fill="#2E2A26" opacity=".12"/>
+  <!-- contents behind the front wall -->
+  <g stroke="#2E2A26" stroke-width="4" stroke-linejoin="round">
+    <g transform="rotate(-12 62 110)">
+      <rect x="54" y="34" width="14" height="86" rx="5" fill="#7FB4C7"/>
+      <path d="M54 34 L61 20 L68 34 Z" fill="#FBF7F2"/>
+    </g>
+    <g transform="rotate(8 84 110)">
+      <rect x="78" y="42" width="12" height="80" fill="#F2C14E"/>
+      <path d="M78 42 L84 28 L90 42 Z" fill="#E3C9A0"/>
+    </g>
+    <g transform="rotate(-4 130 110)">
+      <rect x="104" y="52" width="64" height="44" rx="4" fill="#FFFFFF"/>
+      <path d="M104 54 L136 78 L168 54" fill="none"/>
+    </g>
+  </g>
+  <!-- caddy body: top rim, side, front -->
+  <path d="M28 92 L40 82 H176 L164 92 Z" fill="#C9533D" stroke="#2E2A26" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M164 92 L176 82 V154 L164 166 Z" fill="#C9533D"/>
+  <path d="M164 92 L176 82 V154 L164 166 Z" fill="url(#ll)"/>
+  <path d="M164 92 L176 82 V154 L164 166 Z" fill="none" stroke="#2E2A26" stroke-width="4" stroke-linejoin="round"/>
+  <rect x="28" y="92" width="136" height="74" rx="6" fill="#E4674F"/>
+  <rect x="28" y="92" width="136" height="74" rx="6" fill="url(#ll)"/>
+  <path d="M36 102 H110" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" opacity=".55"/>
+  <path d="M96 100 V158" stroke="#C9533D" stroke-width="4" stroke-linecap="round"/>
+  <rect x="28" y="92" width="136" height="74" rx="6" fill="none" stroke="#2E2A26" stroke-width="4"/>
+  <!-- weighted paper holder in front -->
+  <path d="M120 166 C 120 140 156 140 156 166 Z" fill="#F2C14E" stroke="#2E2A26" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M128 154 Q134 146 142 146" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" opacity=".6"/>
+</svg>

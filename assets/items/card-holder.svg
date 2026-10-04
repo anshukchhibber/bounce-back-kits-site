@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <!-- Playing-card holder (printed). Style: 3/4 front view, ink outline 4, shade + highlight, layer lines on printed parts. -->
+  <defs>
+    <pattern id="ll" width="8" height="4" patternUnits="userSpaceOnUse"><rect width="8" height="1.3" fill="#2E2A26" opacity=".1"/></pattern>
+  </defs>
+  <ellipse cx="100" cy="174" rx="74" ry="9" fill="#2E2A26" opacity=".12"/>
+  <g stroke="#2E2A26" stroke-width="4" stroke-linejoin="round">
+    <g transform="rotate(-38 100 150)"><rect x="80" y="50" width="40" height="58" rx="6" fill="#FFFFFF"/><path d="M89 58 l5 7 -5 7 -5 -7z" fill="#E4674F" stroke="none"/></g>
+    <g transform="rotate(-19 100 150)"><rect x="80" y="48" width="40" height="58" rx="6" fill="#FFFFFF"/><circle cx="89" cy="60" r="4" fill="#2E2A26" stroke="none"/></g>
+    <g transform="rotate(0 100 150)"><rect x="80" y="46" width="40" height="58" rx="6" fill="#FFFFFF"/><path d="M89 54 l5 7 -5 7 -5 -7z" fill="#E4674F" stroke="none"/><path d="M100 64 l9 12 -9 12 -9 -12z" fill="#E4674F" stroke="none"/></g>
+    <g transform="rotate(19 100 150)"><rect x="80" y="48" width="40" height="58" rx="6" fill="#FFFFFF"/><circle cx="89" cy="60" r="4" fill="#2E2A26" stroke="none"/></g>
+    <g transform="rotate(38 100 150)"><rect x="80" y="50" width="40" height="58" rx="6" fill="#FFFFFF"/><path d="M89 58 l5 7 -5 7 -5 -7z" fill="#E4674F" stroke="none"/></g>
+  </g>
+  <!-- holder body -->
+  <path d="M30 120 Q100 102 170 120 L164 158 Q100 174 36 158 Z" fill="#F2C14E"/>
+  <path d="M34 146 Q100 162 166 146 L164 158 Q100 174 36 158 Z" fill="#D9A63A"/>
+  <path d="M30 120 Q100 102 170 120 L164 158 Q100 174 36 158 Z" fill="url(#ll)"/>
+  <path d="M46 133 Q100 119 154 133" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" opacity=".55"/>
+  <path d="M30 120 Q100 102 170 120 L164 158 Q100 174 36 158 Z" fill="none" stroke="#2E2A26" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M52 121 Q100 108 148 121" fill="none" stroke="#2E2A26" stroke-width="5" stroke-linecap="round"/>
+</svg>
